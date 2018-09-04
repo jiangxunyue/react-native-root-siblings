@@ -87,7 +87,7 @@ AppRegistry.setWrapperComponentProvider(function () {
   }
 })
 
-export default class {
+class Siblings {
   constructor(element, callback, store) {
     const id = uuid++;
     function update(element, callback, store) {
@@ -107,3 +107,4 @@ export default class {
     this.destroy = destroy;
   }
 }
+module.exports = Siblings;
