@@ -8,8 +8,7 @@
     "license": "MIT",
     "description": "react native root sibling elements manager",
     "dependencies": {
-        "static-container": "^1.0.0",
-        "react-redux": "*"
+        "static-container": "^1.0.0"
     },
     "keywords": [
         "react-component",
